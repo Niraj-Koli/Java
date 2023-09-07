@@ -8,9 +8,9 @@ public class MobilePhone implements ITelephone {
     private boolean isOn = false;
 
     public MobilePhone(String name, String model, int myNumber) {
-        this.name = name;
-        this.model = model;
-        this.myNumber = myNumber;
+        MobilePhone.name = name;
+        MobilePhone.model = model;
+        MobilePhone.myNumber = myNumber;
     }
 
     public static String getName() {

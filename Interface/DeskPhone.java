@@ -7,9 +7,9 @@ public class DeskPhone implements ITelephone {
     private boolean isRinging;
 
     public DeskPhone(String name, String model, int myNumber) {
-        this.name = name;
-        this.model = model;
-        this.myNumber = myNumber;
+        DeskPhone.name = name;
+        DeskPhone.model = model;
+        DeskPhone.myNumber = myNumber;
     }
 
     public static String getName() {
